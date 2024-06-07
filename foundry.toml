@@ -2,5 +2,11 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+# solc_version = "0.6.11"
+fs_permissions = [{ access = "read", path = "./"}]
+
+[rpc_endpoints]
+ethereum = "${ETHEREUM}"
+
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
